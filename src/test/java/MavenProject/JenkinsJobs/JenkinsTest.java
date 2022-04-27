@@ -14,7 +14,7 @@ public class JenkinsTest {
 	@Test(priority=0)
 	void writeNotes() {
 		System.out.println("Writing notes...");
-		noteClass.setNotes(" is a historical person");
+		noteClass.setNotes(" is a historical person. Yeah!");
 	}
 	
 	private class NoteClass {
