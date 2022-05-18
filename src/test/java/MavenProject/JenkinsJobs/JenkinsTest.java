@@ -13,7 +13,7 @@ public class JenkinsTest {
 	
 	@Test(priority=0)
 	void writeNotes() {
-		System.out.println("Writing notes...");
+		System.out.println("Writing notes on the screen...");
 		noteClass.setNotes(" is a historical person. Yeah!");
 	}
 	
